@@ -1,8 +1,8 @@
 # Script Overview
 ---
-## Whats the point of this script 
+## Purpose
 
-This script will take attempt live host discovery using nmap with the -sn scan and then parse the results to leave only the IP addresses that were up.
+This script will attempt live host discovery using nmap with the -sn scan and then parse the results to leave only the IP addresses that were up.
 
 This scan works by sending 4 different types of packets without doing a port scan:
 - ICMP Echo Request (ping)
@@ -19,7 +19,7 @@ It will not always work for a public network due to firewall restrictions such a
 - Blocking Nmap TCP probes 
 ---
 
-## How to run the script 
+## Usage 
  - Download the script 
  - In the terminal change to the directory containing the script
  - Run the following command 
@@ -27,7 +27,7 @@ It will not always work for a public network due to firewall restrictions such a
  python3 HostDiscovery.py {target address/range}
 ```
 
-# How the Script Works  
+# How it works 
 
 ## 1. Check for Target  
 - The script first checks if a target has been provided as an argument.  
