@@ -10,7 +10,7 @@ else:
     sys.exit(1)  # Exit if no target is provided
 
 # Create the filename
-file = "foundDirecrories.txt"
+file = "FoundDirectories.txt"
 
 #  List of common directories 
 dir_list = ["admin", "news", "index", "images", "login", "contact"]
