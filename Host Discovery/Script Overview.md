@@ -11,13 +11,6 @@ This scan works by sending 4 different types of packets without doing a port sca
 - ICMP Timestamp request
 --- 
 
-## When does it work 
-This script will work when the network is directly reachable, for example when you're connected to your home network.
-
-It will not always work for a public network due to firewall restrictions such as:
-- Blocking pings
-- Blocking Nmap TCP probes 
----
 
 ## Usage 
  - Download the script 
